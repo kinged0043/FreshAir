@@ -6,5 +6,3 @@ parent = r'c:\Users\KingED\Downloads'
 def make_dir(dir_name):
     path = os.path.join(parent, dir_name)
     os.mkdir(path=path, dir_fd=None)
-
-driver = webdriver.Edge()
