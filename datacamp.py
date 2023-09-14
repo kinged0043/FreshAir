@@ -19,3 +19,5 @@ browser.click()
 time.sleep(6)
 
 # navigate to the course/track of choice
+# note you can use find_elements to get all elements that contain videos in a course for easier download
+# and you can probably fetch the names of the videos and store them in a list
